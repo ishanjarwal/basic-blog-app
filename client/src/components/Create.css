@@ -1,0 +1,27 @@
+section.create-form-wrapper {
+    background-color: #fbfbfb;
+}
+
+form.create-form {
+    width: 100%;
+    max-width: 800px;
+}
+
+form.create-form input {
+    background-color: #fff;
+    border: 2px solid #e1e8ff;
+    outline: none;
+    border-radius: .5rem;
+}
+
+form.create-form input:focus {
+    border: 2px solid blue;
+}
+
+form.create-form button {
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    background-color: blue;
+    color: #fff;
+}

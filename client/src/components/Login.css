@@ -1,0 +1,30 @@
+.login-wrapper {
+    background-color: #eaeaea;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 2rem 1.5rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.login-container form.login-form input {
+    background-color: #fff;
+    border: 2px solid #e1e8ff;
+    outline: none;
+    border-radius: .5rem;
+}
+
+.login-container form.login-form input:focus {
+    border: 2px solid blue;
+}
+
+.login-container form.login-form button {
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    background-color: blue;
+    color: #fff;
+}

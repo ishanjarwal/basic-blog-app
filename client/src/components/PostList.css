@@ -1,0 +1,23 @@
+section.posts-wrapper {
+    background-color: #fbfbfb;
+}
+
+.posts-cont {
+    padding: 3rem 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 12px;
+    max-width: 900px;
+}
+
+@media screen and (max-width:900px) {
+    .posts-cont {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .posts-cont {
+        grid-template-columns: auto;
+    }
+}

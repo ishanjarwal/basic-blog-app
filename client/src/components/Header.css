@@ -1,0 +1,43 @@
+header.header {
+    border-bottom: 1px solid #d4d4d4;
+    background-color: #fff;
+}
+
+img.logo {
+    height: 2.5rem;
+    width: auto;
+}
+
+@media screen and (max-width: 500px) {
+    img.logo {
+        height: 2rem;
+    }
+}
+
+nav.nav-links-cont>a {
+    padding: 4px 6px;
+    color: #000;
+    border-radius: 6px;
+    box-shadow: none;
+    transition: 200ms;
+}
+
+nav.nav-links-cont>a:hover {
+    color: #545454;
+    box-shadow: 0px 0px 0px .5px #545454;
+}
+
+nav.nav-links-cont>button {
+    border: none;
+    background-color: transparent;
+    padding: 4px 6px;
+    color: #000;
+    border-radius: 6px;
+    box-shadow: none;
+    transition: 200ms;
+}
+
+nav.nav-links-cont>button:hover {
+    color: #545454;
+    box-shadow: 0px 0px 0px .5px #545454;
+}
